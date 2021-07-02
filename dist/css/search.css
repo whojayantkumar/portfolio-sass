@@ -1,0 +1,36 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.search {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 200px;
+  height: 3rem;
+  background-color: black;
+  color: #fff;
+}
+
+.search .search-input {
+  width: 100%;
+}
+
+.search .search-input input[type=text] {
+  font-size: 14px;
+  background-color: black;
+  width: 100%;
+  border: none;
+}
+
+.search .search-input input[type=text]:focus {
+  outline: none;
+}
+/*# sourceMappingURL=search.css.map */
